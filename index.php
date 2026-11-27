@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/config/functions.php'; if(!empty($_SESSION['id_kasir'])){header('Location: dashboard.php');}else{header('Location: auth/login.php');} exit;
